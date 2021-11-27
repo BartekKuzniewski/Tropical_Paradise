@@ -447,7 +447,7 @@ body {
   }
   .hero-img hr {
     width: 60%;
-    max: width 900px;
+    max-width: 900px;
   }
 }
 /*# sourceMappingURL=main.css.map */
