@@ -248,6 +248,12 @@ body {
           animation: navItemsAnimation 1s both;
 }
 
+.black-bars-color,
+.black-bars-color::before,
+.black-bars-color::after {
+  background-color: #2e2e2e;
+}
+
 .header {
   position: relative;
   display: -webkit-box;
@@ -688,10 +694,10 @@ body {
 .footer__box-link {
   color: #fff;
   font-size: 3.6rem;
-  padding: 0 .3em;
+  padding: 0 0.3em;
   text-decoration: none;
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .footer__box-link:first-child {

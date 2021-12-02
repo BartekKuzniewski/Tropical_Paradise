@@ -20,6 +20,8 @@ body {
 	font-size: 1.6rem;
 }
 
+
+
 //NAV
 
 .burger-btn {
@@ -128,6 +130,12 @@ body {
 
 .nav-items-animation {
 	animation: navItemsAnimation 1s both;
+}
+
+.black-bars-color,
+.black-bars-color::before,
+.black-bars-color::after {
+	background-color: $dark;
 }
 
 // HEADER
@@ -519,9 +527,9 @@ body {
 	&__box-link {
 		color: $pure-white;
 		font-size: 3.6rem;
-		padding: 0 .3em;
+		padding: 0 0.3em;
 		text-decoration: none;
-		transition: color .3s;
+		transition: color 0.3s;
 
 		&:first-child {
 			padding-left: 0;
